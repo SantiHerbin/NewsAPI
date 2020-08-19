@@ -33,7 +33,7 @@ class Home extends React.Component {
     return (
       <div className="wraper">
         <div className="header">
-          <h1>Noticias</h1>
+          <h1>Noticis</h1>
         </div>
         <Noticias 
             noticias={this.state.noticias}
