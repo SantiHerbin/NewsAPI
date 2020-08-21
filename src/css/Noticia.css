@@ -1,18 +1,45 @@
-.col-md-4{
-    border: 1px solid #eee;
+.article{
+    height: auto;
+    width: 350;
+    margin: 20px;
+    background-color: #dddddd;
+    border-radius: 10px;
 }
 
-.card{
-    margin-top: 7px;
+.target-header{
+    display: flex;
+    flex-direction: column;
 }
 
-.card-img-top{
-    margin-bottom: 5px;
+.image{
+    width: auto;
+    height: 180px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+}
+
+.target-body{
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+}
+
+.target-title{
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-top: 15px;
+    margin-bottom: 10px;
 
 }
 
-.card-author{
-    margin-left: 7px;
-    color: #999;
-    font-size: 15px;
+.target-author{
+    margin-left: 80px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.target-title{
+    font-size: 23px;
 }
